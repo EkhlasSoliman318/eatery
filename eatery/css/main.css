@@ -1,0 +1,298 @@
+
+.header_nav .navbar-brand{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header_nav .navbar-brand span{
+    color: #ce3232;
+}
+.header_nav .collapse{
+    margin-right: 8rem;
+    
+}
+.header_nav .background-navbar {
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 0 rgba(1, 1, 1, 0.1);
+}
+.header_nav .background-navbar a{
+    color: #333;
+}
+.header_nav .collapse ul li{
+    margin-right: 2rem;
+}
+.header_nav  ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 22px;
+    padding-left: 22px;
+    transition: .5s;
+}
+.header_nav  ul li a:hover{
+    transform: scale(0.9);
+    color:#ce3232; 
+}
+.header_nav  ul li .btn{
+    background-color:#ce3232;
+    border-radius: 0;
+    color: #fff;
+    padding:10px 25px;
+    margin-left: 1rem;
+}
+.header_nav  ul li .btn:hover{
+    color: #fff;
+}
+/*********************************/
+.header_slider .carousel-inner{
+    height: 30rem;
+    cursor:vertical-text;
+}
+.carousel-caption{
+    bottom: 110px;
+    text-align: inherit;
+}
+.carousel-item{
+    height: 30rem;
+}
+.carousel-caption h3{
+    color: #f9f9f9;
+    font-size: 14px;
+    line-height: inherit;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.carousel-caption h1{
+    color: #fff;
+    line-height: 50px;
+    padding-bottom: 30px;
+    font-size:3em;
+}
+.carousel-caption .btn1{
+    background-color:#ce3232;
+    border-radius: 0;
+    color: #fff;
+    padding:10px 25px;
+    margin-left: 1rem;
+}
+/********************************************/
+.about{
+    margin-top: 4rem;
+}
+.about .desc h3{
+    color: #bfbdbd;
+    font-size: 14px;
+    line-height: inherit;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.about .desc h1{
+    color: #353535;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.about .desc p{
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.about .desc p a{
+    color: #252525
+}
+.about .desc p a:hover{
+    color: #ce3232;
+    text-decoration: none;
+}
+.about .img img{
+    width: 100%;
+}
+/******************************************/
+.chef{
+    background-color: #f9f9f9;
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.chef .item{
+    position: relative;
+    overflow: hidden;
+}
+.chef .item img{
+    width: 100%;
+}
+.chef .item .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.8);
+    padding-top:50%;
+    transition: .5s ease;
+    text-align: center;
+}
+.chef .item .overlay h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.chef .item .overlay i{
+    background-color: #292929;
+    color: #d9d9d9;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1x solid #292929;
+    padding:16px;
+    margin-top: 1.3rem;
+}
+.chef .item .overlay i:hover{
+    background-color: #ce3232;
+}
+.chef .item:hover .overlay{
+    opacity: 1;
+}
+.chef .head{
+    text-align: center;
+    margin-top: 1.2rem;
+    
+}
+.chef .head h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.chef .head h4{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #bfbdbd;
+}
+/************************************************/
+.menu{
+    padding-top: 4rem;
+}
+.menu .head{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.menu .head h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu .head h4{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #bfbdbd;
+}
+.menu .item{
+    overflow: hidden;
+    position: relative;
+}
+.menu .item1{
+    margin: 0;
+    padding: 0;
+}
+.menu .item img{
+    width: 100%;
+    transition: .5s;
+}
+.menu .item .overlay{
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: left;
+    padding: 25px 30px;
+    transition: 0.5s 0.2s;
+    opacity: 1;
+    background-color: rgba(0,0,0, 0.8);
+}
+.menu .item .overlay h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.menu .item .overlay p{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #bfbdbd;
+    float: left;
+}
+.menu .item .overlay .price{
+    float: right;
+}
+.menu .item .overlay .price span{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.menu .item:hover .overlay{
+    opacity: 1;
+}
+.menu .item:hover img{
+    transform: scale(1.15);
+}
+/********************************************************/
+.testimonial{
+    background-image: url(../images/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    padding-top: 8rem;
+}
+.testimonial .head{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.testimonial .head h2{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.testimonial .item p{
+    color: #d9d9d9;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin-left: 160px;
+    width: 65%;
+}
+.testimonial .item h4{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #bfbdbd;
+    display: inline-block;
+    margin-right: 1rem;
+}
+.testimonial .item span{
+    color: #b2b2b2;
+}
+.testimonial .carousel{
+    text-align: center;
+}
+.owl-prev span{
+    display: none;
+}
+.owl-next span{
+    display: none;
+}
